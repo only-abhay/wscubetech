@@ -1,0 +1,23 @@
+header{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    height: 60px;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+ol{
+ background-color: brown;
+ color: white;
+ width: 200px;
+}
+table{
+    background-color: aquamarine;
+}
+div{
+    font-size: 40px;
+    background-color: crimson;
+}

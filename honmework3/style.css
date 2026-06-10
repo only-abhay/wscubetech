@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    width: 1100px;
+    border: 2px solid black;
+    background-image: url("https://www.wscubetech.com/images/home-images/learning-bg.svg");
+    background-position: bottom;
+    margin: auto;
+    margin-top: 30px;
+}
+.innercontainer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 44, 205,0.6);
+    padding-top: 20px;
+}
+.row1col1{
+    height: 250px;
+    width: 400px;
+    float: left;
+    text-align: center;
+    margin: 0 50px;
+    padding-top: 80px;
+    color: white;
+}
+.row1col2{
+    height:250px;
+    width: 220px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 40px;
+    background-color: white;
+}
+.row2{
+ padding-left: 205px;
+ float: left;
+}
+.row2col1{
+    height:250px;
+    width: 220px;
+    border: 2px solid black;
+    float: left;
+    margin: 25px 25px 0;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 40px;
+    background-color: white;
+}

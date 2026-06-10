@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+            border: 2px solid black;
+        }
+        button{
+            padding: 20px 20px ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <span class="text">0</span>
+        </div>
+        <button onclick="demo(1)" class="btn1">+</button>
+        <button onclick="demo(2)"class="btn2">-</button>
+        <button onclick="demo(3)"class="btn3">Reset</button>
+    </div>
+    <script>
+        var btn1= document.querySelector(".btn1")
+        var btn2= document.querySelector(".btn2")
+        var btn3= document.querySelector(".btn3")
+        var text= document.querySelector(".text")
+        count=0;
+        function demo(a){
+            if(a==1  ){
+               if(count==10){
+                btn1.disabled=true;
+               }else{
+                 count++;
+                text.innerHTML=count
+                btn1.disabled=false;
+
+               }
+            }else if(a==2 ){
+                if(count==0){
+                btn2.disabled=true;
+               }else{
+                 count--;
+                text.innerHTML=count
+                btn2.disabled=false;
+               }
+            }else{
+                count=0
+                   text.innerHTML=count;
+                btn1.disabled=false;
+                btn2.disabled=false;
+            }
+        }
+    </script>
+</body>
+</html>

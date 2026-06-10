@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.left-con{
+    width: 600px;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.right-con{
+    width: 600px;
+    border: 1px solid black;
+    padding: 30px;
+
+}
+.name{
+    margin-bottom: 20px;
+}
+.num{
+    margin-bottom: 20px;
+}
+.Gmail{
+    margin-bottom: 20px;
+
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+    color: blue;
+}
+.name span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 70px;
+}
+.name input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.num span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.num input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.Gmail span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 68px;
+}
+.Gmail input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.name-right{
+    text-align: center;
+     font-size: 30px;
+     font-weight: bold;
+}
+.num-right{
+     text-align: center;
+     font-size: 30px;
+     font-weight: bold;
+}
+.Gmail-right{
+     text-align: center;
+     font-size: 30px;
+     font-weight: bold;
+}
+.fontsize{
+    display: flex;
+}
+.fontsize button{
+    padding: 10px;
+    margin-right: 20px;
+    background-color: bisque;
+    color: brown;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 20px;
+    font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

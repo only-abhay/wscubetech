@@ -1,0 +1,19 @@
+@media only screen and (min-width:500px) and (max-width:700px){
+    .con{
+        flex-wrap: wrap;
+}
+.main{
+    width: 150px;
+}
+}
+@media only screen and (min-width:200px) and (max-width:400px){
+    .con{
+        display: block;
+}
+.main{
+    width: 150px;
+}
+.maii{
+    display: block;
+}
+}

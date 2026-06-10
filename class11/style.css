@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 200px;
+    height: 400px;
+    border: 2px solid black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.boxcol2{
+    height: 50px;
+    width: 200px;
+
+}

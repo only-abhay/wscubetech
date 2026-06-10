@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+.container{
+    background-color: white;
+    margin: 50px auto;
+
+}
+.card{
+    padding-top: 20px;
+     padding-left: 10px;
+     cursor: pointer;
+}
+.title{
+     border-bottom: 1px solid black;
+     font-size: 25px;
+     font-weight: bold;
+}
+.para{
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+}
+.click{
+    background-color: aqua;
+}

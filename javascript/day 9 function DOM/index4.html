@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: rebeccapurple;
+      margin: 20px auto;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">2</div>
+  <div class="box">2</div>
+  <div class="box">5</div>
+  <div class="box">10</div>
+  <div class="box">2</div>
+  <button onclick="demo()">change</button>
+  <script>
+    var box = document.querySelectorAll(".box")
+    function demo() {
+      for (var i = 0; i <= box.length; i++) {
+        if (box[i].innerText == 2) {
+          box[i].style.backgroundColor = "red"
+        }
+      }
+      // for(div of box){
+      //    if( div.innerText==2){
+      //    div.style.backgroundColor="red"
+      //    }
+      //  }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cont{
+    width: 1140px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Card */
+.card {
+  width: 320px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Image Section */
+.card-img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.overlay h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.rating {
+  background: #22c55e;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+/* Content */
+.card-content {
+  padding: 12px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.price {
+  color: #000;
+  font-weight: 600;
+}
+
+.location {
+  font-size: 13px;
+}
+
+.distance {
+  font-size: 13px;
+}
+
+/* Offer Box */
+.offer {
+  background:  #1ba672;
+  color:white ;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+/* Extra Offer */
+.extra {
+   background:#c8f9e5;
+  color: #1ba672;
+  padding: 8px;
+  border-radius: 8px;
+  margin: 10px 0;
+  font-size: 13px;
+}

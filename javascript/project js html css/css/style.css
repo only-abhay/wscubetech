@@ -1,0 +1,507 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  color: inherit;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.alluse{
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+body{
+background: #0F172A;
+}
+/* header starts here  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ background: linear-gradient(to left, #00ffcc, #1e1e1e);
+  padding: 12px 30px;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+.menu-head {
+  display: none;
+}
+.right-header ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.top-up {
+  left: 0% !important;
+}
+.right-header ul li {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.right-header ul li:nth-child(5) {
+  margin-right: 30px;
+  position: relative;
+}
+.right-header ul li i {
+  font-size: 8px;
+  color:#FFFFFF;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+}
+
+.button-34 {
+   margin-left: 20px;
+  background:#0F172A;
+  border-radius: 999px; 
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  transition: 400ms;
+}
+.navli{
+  transition: 400ms;
+}
+.button-34:hover {
+  background-color: white;
+}
+.button-34:hover .navli{
+  color: #0F172A !important;
+}
+.clock{
+position: absolute;
+left: 121px;
+top: 10px;
+}
+.clock h1{
+font-size: 16px;
+    color: #ccc;
+    font-family: monospace;
+    margin-top: 7px;
+}
+.but1 {
+  background:#0F172A;
+  border-radius: 999px; 
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-weight: 700;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 1px 3px;
+  word-break: break-word;
+  border: 0;
+  transition: 400ms;
+  display: none;
+}
+.but1:hover{
+  background-color: white;
+  color: #0F172A !important;
+}
+.clock:hover .but1{
+  display: block;
+}
+/* header cosed here  */
+/* hero section strts here  */
+.herosection{
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+}
+.lefthero h4{
+  margin-left: 6px;
+   margin-bottom: 15px;
+   font-size: 25px;
+   color: #00ffcc;
+}
+.lefthero h1{
+   font-size: 90px;
+    color: #00ffcc;
+   margin-bottom: 5px;
+
+}
+.lefthero h5{
+   font-size: 18px;
+  color: aqua;
+}
+/* Button Styling */
+.hero-btn {
+    display: inline-block;
+    background-color: #00ffcc;
+    color: #121212;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+.hero-img{
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+  position: absolute;
+  top: -38px;
+  right: -40px;
+}
+.hero-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+    object-fit:cover;
+}
+/* Popup */
+
+.popup{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.8);
+  display:none;
+  justify-content:center;
+  align-items:center;
+  z-index: 200;
+}
+
+.popup-img{
+  width:500px;
+  border-radius:10px;
+}
+
+.close{
+  position:absolute;
+  top:30px;
+  right:40px;
+  font-size:40px;
+  color:white;
+  cursor:pointer;
+}
+/* hero section ends here  */
+/* about me  here  */
+
+.about-me{
+  margin-top: 200px;
+}
+.about-me h1{
+    font-size: 50px;
+    color: #00ffcc;
+   margin-bottom: 5px;
+}
+.about-me p{
+  color: #FFFFFF;
+  text-align: justify;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+
+.myproject{
+  margin-top: 30px;
+}
+.myproject h1{
+    font-size: 50px;
+    color: #00ffcc;
+   margin-bottom: 5px;
+}
+.MYPRO-H4{
+     font-size: 25px;
+    color: #FDFBD4;
+   margin-bottom: 5px;
+   margin-top: 20px;
+}
+.html-css{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+.hero-btn2 {
+    display: inline-block;
+    background-color: #00ffcc;
+    color: #121212;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.myntra{
+  margin-bottom: 40px;
+  width: 500px;
+  flex-shrink: 0;
+  margin-right: 140px;
+}
+.myntra h5{
+  color: #00ffcc;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.myntra p{
+    color: #FFFFFF;
+  text-align: justify;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+/* about me ends here  */
+/* java strt here  */
+
+.java{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}
+.hero-btn2 {
+    display: inline-block;
+    background-color: #00ffcc;
+    color: #121212;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.injava{
+  margin-bottom: 40px;
+  width: 500px;
+  flex-shrink: 0;
+}
+.injava h5{
+  color: #00ffcc;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.injava p{
+    color: #FFFFFF;
+  text-align: justify;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.bp{
+    top: 0px;
+    left: 300px;
+    position: absolute;
+    background-color: aliceblue;
+    transform: scale(0);
+    transition: 150ms;
+    width: 600px;
+}
+
+.bp button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color:white;
+  border: none;
+background: #0F172A;
+    color: #ccc;
+    right: 2px;
+    top: 1px;
+}
+.bpo{
+    display: block !important;
+    transform: scale(1) !important;
+  }
+/* java ends here  */
+
+#abh{
+background: #0F172A;
+padding: 15px;
+padding-top: 20px;
+border: 1px solid white;
+}
+#abh h5{
+  color: #00ffcc;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#abh p{
+    color: #FFFFFF;
+  text-align: justify;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.container-acco h1{
+ color: #00ffcc;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.card{
+    padding-top: 20px;
+     padding-left: 10px;
+     cursor: pointer;
+}
+.title{
+     border-bottom: 1px solid black;
+     font-size: 25px;
+     font-weight: bold;
+}
+.para{
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+    color: white;
+    margin-top: 30px;
+}
+.click{
+  color: white;
+}
+ /* footer started here  */
+footer {
+ background: linear-gradient(to left, #00ffcc, #1e1e1e);
+  padding-top: 100px;
+  padding-bottom: 120px;
+  margin-top: 50px;
+}
+.foot-here {
+  display: flex;
+  justify-content: space-between;
+}
+.left-foot h6 {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.left-foot p {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.right-foot h6 {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.right-foot p {
+  color: #fff;
+  margin-bottom: 15px;
+}
+#email {
+  padding: 9.5px 100px;
+  font-weight: 300;
+  background: #f9f9ff;
+  padding-left: 20px;
+  font-size: 13px;
+}
+.email-foot {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.email-foot button {
+  background-color: #d1ab7f;
+  color: #fff;
+  padding: 0px 10px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 900;
+  height: 30px;
+}
+.end-foot h6 {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+.end-foot p {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.end-foot i {
+  color: #fff;
+  margin-right: 15px;
+}
+.foot-ennding {
+  color: #fff;
+  margin-top: 20px;
+}
+.foot-ennding span {
+  color: #d1ab7f;
+}
+/* FORMS */
+.jm-form {
+  padding: 30px; 
+  border-radius: 10px; 
+  margin-top: 20px; 
+  width: 600px;
+  margin: auto;
+  color: black;
+}
+.form-group { margin-bottom: 15px; 
+  text-align: left; 
+}
+input, select, textarea { width: 100%; 
+  padding: 12px; 
+  margin-bottom: 10px; 
+  background: white; 
+  border: 1px solid #333; 
+  border-radius: 5px; 
+}
+.cta-btn { background: #00ffcc; 
+  border: none; 
+  padding: 12px 20px; 
+  font-weight: bold; 
+  cursor: pointer; 
+  width: 100%;
+   border-radius: 5px;
+   }
+.section-title { color: #00ffcc; 
+  font-size: 30px; 
+  margin-bottom: 30px; 
+  border-bottom: 2px solid #00ffcc; 
+  display: inline-block;
+    margin-top: 20px;
+    margin: auto;
+ }
+ .contt{
+  display: flex;
+
+ }
+ .click i{
+  transform: rotate(90deg);
+ }
+ .tabs{
+  width:80%;
+  margin:auto;
+  text-align:center;
+}
+
+.tab-buttons button{
+  padding:10px 20px;
+  border:none;
+  background:#2563EB;
+  color:white;
+  cursor:pointer;
+  margin:5px;
+}
+.tab{
+  display:none;
+  padding:20px;
+  border:1px solid #ddd;
+  margin-top:10px;
+  color: white;
+}
+.tabs-none{
+  display: block;
+}

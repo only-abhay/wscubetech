@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 8px;
+ height: 40px;
+}
+.header{
+  padding: 10px;
+  box-shadow: none;
+}
+.content{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  border-top: none;
+}
+.changecolor{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.butmain{
+  height: 200px;
+  width: 240px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.butmain button{
+  padding: 5px;
+  margin-right: 10px;
+}
+.butmain button:nth-child(1){
+  background-color: green;
+  color: white;
+}
+.butmain button:nth-child(2){
+  background-color: red;
+  color: white;
+}
+body{
+  background-color: black;
+  color: white;
+}

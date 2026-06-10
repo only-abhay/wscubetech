@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            gap: 10px;
+            overflow: hidden;
+            background-color: cyan;
+        }
+     
+        .roll{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border: 2px solid black;
+            animation-name: demo;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            position: absolute;
+        }
+        .roll:nth-child(1){
+            background-color: black;
+            animation-duration: 11s;
+            
+        }
+        .roll:nth-child(2){
+            background-color: blue;
+            animation-duration: 6s;
+            right: 0px;
+            width: 50px;
+            height: 50px;
+
+        }
+        .roll:nth-child(3){
+            background-color: darkgray;
+            animation-duration: 4s;
+            right:200px;
+            width: 75px;
+            height: 75px;
+        }
+        .roll:nth-child(4){
+            background-color: teal;
+            animation-duration: 15s;
+            right:400px;
+        }
+        .roll:nth-child(5){
+            background-color:tan;
+            animation-duration: 2s;
+            right:600px;
+            width: 80px;
+            height: 80px;
+        }
+        .roll:nth-child(6){
+            background-color:tan;
+            animation-duration: 8s;
+            right:500px;
+            width: 60px;
+            height: 60px;
+        }
+        .roll:nth-child(7){
+            background-color:tan;
+            animation-duration: 12s;
+            right:300px;
+            width: 90px;
+            height: 90px;
+        }
+         .roll:nth-child(8){
+            background-color: firebrick;
+            animation-duration: 6s;
+            right: 150px;
+            width: 50px;
+            height: 50px;
+
+        }
+        .roll:nth-child(9){
+            background-color: darkolivegreen;
+            animation-duration: 1s;
+            right:550px;
+            width: 75px;
+            height: 75px;
+        }
+        .roll:nth-child(10){
+            background-color: deeppink;
+            animation-duration: 13s;
+            right:100px;
+        }
+        .roll:nth-child(11){
+            background-color:tan;
+            animation-duration: 2s;
+            right:100px;
+            width: 80px;
+            height: 80px;
+        }
+        .roll:nth-child(12){
+            background-color:tan;
+            animation-duration: 8s;
+            left: 300px;
+            width: 60px;
+            height: 60px;
+        }
+        .roll:nth-child(13){
+            background-color:tan;
+            animation-duration: 4s;
+            left: 100px;
+            width: 90px;
+            height: 90px;
+        }
+
+        @keyframes demo{
+           0%{
+               transform: translateY(-200px);
+              
+               
+              
+           }
+           100%{
+            transform: translateY(800px);
+           
+           }      
+        } 
+
+    </style>
+</head>
+<body>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+        <div class="roll"></div>
+       
+</body>
+</html>

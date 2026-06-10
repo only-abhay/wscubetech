@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 450px;
+    padding: 20px;
+    background-color: chocolate;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.container h1{
+    font-size: 100px;
+}
+.container button{
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    
+}
+.week{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+}
+.changecolor{
+    color: blue;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+.toggle{
+  background-color: brown;
+  color: aliceblue;
+}
+.date{
+    position: absolute;
+    right: 5px;
+    padding: 5px;
+    top: 5px;
+    background-color: burlywood;
+}

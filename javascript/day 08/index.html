@@ -1,0 +1,49 @@
+<script>
+// var obj={
+//     Name:"Abhay",
+//     Age:22,
+//     ContactNo:7976700191,
+//     Gamial:"abhayshaw6729@gmail.com"
+// }
+// console.log(obj)
+    
+    // var student=[
+    //     {name:"Abhay",age:22,gender:"male"},
+    //     {name:"Nibuu",age:20,gender:"male"},
+    //     {name:"Nandini",age:18,gender:"female"}
+       
+    // ]
+    //     for(var i=0;i<student.length;i++){
+    //       console.log(student[i].name);
+          
+    //    }
+    //   var student=[
+    //     {name:"Abhay",salary:40000},
+    //     {name:"Nibuu",salary:60000},
+    //     {name:"Nandini",salary:80000}
+       
+    // ]
+    //     for(var i=0;i<student.length;i++){
+    //      if(student[i].salary>=50000){
+    //         console.log(student[i].name)
+    //      }
+          
+    //    }
+
+         var student=[
+        { id:1,name:"Abhay",price:40000},
+        {  id:2,name:"Nibuu",price:60000},
+        {  id:3,name:"Nandini",price:80000}
+       
+    ]
+    var low=student[0].price
+        for(var i=0;i<student.length;i++){
+         if(student[i].price<=low){
+            low=student[i].name;
+         }
+          
+       }
+       console.log(low)
+
+       
+</script>

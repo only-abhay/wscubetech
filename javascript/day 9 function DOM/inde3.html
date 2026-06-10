@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <img class="box" height="300px" width="300px" src="img.png" alt="">
+   <button onclick="demo(1)">change</button>
+   <img class="box2" height="300px" width="300px" src="" alt="">
+      <button onclick="demo()">change</button>
+   <img class="box3" height="300px" width="300px" src="" alt="">
+    <script>
+         var box= document.querySelector(".box")
+      var box2= document.querySelector(".box2")
+      var box3= document.querySelector(".box3")
+      function demo(a){
+          if(a==1){
+            box.setAttribute("src","")
+           box2.setAttribute("src","img.png")
+       }else{
+           box2.setAttribute("src","")
+        box3.setAttribute("src","img.png")
+       }
+      }
+    </script>
+</body>
+</html>

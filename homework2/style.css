@@ -1,0 +1,42 @@
+
+.container{
+    width: 1000px;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.row1{
+    width: 250px;
+    height: 100px;
+    float: left;
+    border: 2px solid black;
+     box-sizing: border-box;
+     padding:35px;
+}
+.middle{
+    width: 500px;
+    height: 100px;
+    float: left;
+     box-sizing: border-box;
+     border: 2px solid black;
+     padding: 35px;
+}
+.box{
+   width: 500px;
+    float: left;
+}
+.img{
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+.row2{
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 100px;
+    padding: 35px;
+}
+img{
+    box-sizing: border-box;
+    border: 2px solid black;
+}

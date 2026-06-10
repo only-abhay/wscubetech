@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var d= new Date();
+        // console.log(d.getDate());
+        // console.log(d.getDay());
+        // console.log(d.getFullYear());
+        // console.log(d.getHours());
+        // console.log(d.getMinutes());
+        // console.log(d.getSeconds());
+        // console.log(d.getMilliseconds());
+        var d=new Date()
+        var week=d.getDay();
+        function ab(){
+          if(week==0){
+            console.log('sunday')
+          }else if(week==1){
+            console.log('monday')
+          }else if(week==2){
+            console.log('tuesday')
+          }else if(week==3){
+            console.log('wednesday')
+          }else if(week==4){
+            console.log('thrusday')
+          }else if(week==5){
+            console.log('friday')
+          }else if(week==6){
+            console.log('saturday')
+          }
+        }
+        ab()
+    </script>
+</body>
+</html>

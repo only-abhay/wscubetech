@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+           
+        }
+        .load{
+            height: 100px;
+            width: 20px;
+            animation-name: loader;
+            animation-direction: alternate;
+           animation-duration: 0.8s;
+           animation-iteration-count: infinite;
+
+
+        }
+        .load:nth-child(1){
+           background-color: aqua;
+
+        }
+        .load:nth-child(2){
+            background-color: bisque;
+             animation-delay: 0.3s;
+
+        }
+        .load:nth-child(3){
+            background-color: blueviolet;
+            animation-delay:0.6s;
+
+        }
+        @keyframes loader{
+            0%{
+                transform: scaleY(1);
+            }
+             100%{
+                transform: scaleY(0.5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="load"></div>
+    <div class="load"></div>
+    <div class="load"></div>
+</body>
+</html>

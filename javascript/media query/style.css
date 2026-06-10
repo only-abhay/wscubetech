@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.con{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    gap: 20px;
+}
+.main{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+
+}
+.maii{
+    display: flex;
+    gap: 20px;
+}

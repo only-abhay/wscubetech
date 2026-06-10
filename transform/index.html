@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       .main{
+        width: 500px;
+        height: 500px;
+        margin: auto;
+        display: flex;
+        position: relative;
+       }
+       .main img{
+        width: 100%;
+        height: 100%;
+       }
+       .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        transform: scale(0.0);
+        transform-origin: top center;
+        transition: 400ms;
+       }
+       .main:hover .overlay{
+        transform: scale(1,1);
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="img"><img src="instragram.png" alt=""></div>
+        <div class="overlay"></div>
+        <div class="overlay" style="background-color: rgba(255, 255, 255, 0.5); transition-delay: 200ms;"></div>
+
+    </div>
+</body>
+</html>

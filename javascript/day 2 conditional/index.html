@@ -1,0 +1,114 @@
+<script>
+    var weather = "sunny";
+    if(weather==="raining"){
+        console.log("need a raincoat")
+    }else{
+        console.log("No need of a  raincoat")
+
+    }
+    var cibil = Number(prompt("whats your cibil score ? "));
+    if(cibil<=800 && cibil>=750){
+        console.log("Excellent")
+    }else if(cibil<750 && cibil>=700){
+        console.log("Good")
+    }else if(cibil<700 && cibil>=650){
+        console.log("average")
+    }else if(cibil<650 && cibil>=0){
+        console.log("poor")
+    }
+    //simple interest
+    var p = 1000;
+    var r = 9;
+    var t = 12;
+     var interest = (p*r*t)/100*12;
+     if( interest>=0 && interest<=100){
+        console.log("doscount of 20%", interest)
+     } else if(interest>100 && interest<=200){
+        console.log("doscount of 30%", interest)
+     }
+     //simple 
+     var units=300;
+     var unit = 3;
+     var surcharge=50;
+     if( units<=100){
+        console.log(unit*units+surcharge)
+     }else if(unit=5, units>100 && units<=200){
+        console.log(unit*units+surcharge)
+     }else if(unit=10, units>200 && units<=300){
+        console.log(unit*units+surcharge)
+     }
+     var weight= 60;
+     if(weight>70){
+        console.log("overweight")
+     }else if(weight>=60 && weight<=70){
+        console.log("Normal Weight")
+     } else if(weight>=50 && weight<=59){
+        console.log("underweight")
+     }
+     var age = 18;
+     var year = age/4;
+     var rem = year%4;
+
+     if(age<4){
+        console.log(age*365)
+        }else if(age>=4 && rem==0){
+            console.log(age*365+year)
+        }else if(age>=4 && rem==1){
+            console.log(age*365+year)
+        }else if(age>=4 && rem==2){
+            console.log(age*365+year)
+        }else if(age>=4 && rem==3){
+            console.log(age*365+year)
+        }
+    var a = 10;
+    var b = 3;
+    var c = 5;
+    if (a>b && a>c){
+        console.log("a is largest num")
+    } else if (b>a && b>c){
+        console.log("b is largest num")
+    } else if (c>b && c>a){
+        console.log("c is largest num")
+    }
+     var a = 10;
+    var b = 3;
+    var c = 20;
+    if (a<b && a<c){
+        console.log("a is smallest num")
+    } else if (b<a && b<c){
+        console.log("b is smallest num")
+    } else if (c<b && c<a){
+        console.log("c is smallest num")
+    }
+    var color = "green";
+    if(color=="red"){
+        console.log("stop")
+    } else if(color=="green"){
+        console.log("Go")
+    }else if(color=="Yellow"){
+        console.log("Be ready")
+    }
+     var age = 40;
+     if(age>=0 && age<=2){
+        console.log("infant")
+     } else if(age>=3 && age<=5){
+        console.log("toddler")
+     } else if(age>=6 && age<=12){
+        console.log("child")
+     } else if(age>=13 && age<=17){
+        console.log("teenager")
+     } else if(age>=18 && age<=100){
+        console.log("adult")
+     }
+     var month= "June";
+     if(month=="September" || month=="October" || month=="November"){
+        console.log("Autumn")
+      }else  if(month=="December" || month=="January" || month=="February"){
+        console.log("Winter")
+      }else  if(month=="March" || month=="April" || month=="May"){
+        console.log("Spring")
+      }else  if(month=="June" || month=="July" || month=="August"){
+        console.log("Summer")
+      }
+      
+</script>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+   .coin{
+      display: flex;
+      width: 800px;
+      height: 400px;
+      justify-content: space-around;
+
+   }
+</style>
+</head>
+<body>
+  <div class="coin">
+    <div class="box"><img  height="300px" width="300px" src="img.png" alt=""></div>
+   <div class="box"></div>
+</div>
+   <button onclick="demo(1)">change</button>
+   <button onclick="demo(2)">Prev</button>
+   <script>
+      var box= document.querySelectorAll(".box")
+      var boxi= document.querySelectorAll(".box")
+      function demo(a){
+           if(a==1){
+          boxi[1].innerHTML=box[0].innerHTML
+          box[0].innerHTML=""
+           }else{
+          boxi[0].innerHTML=box[1].innerHTML
+          box[1].innerHTML=""
+           }
+      }
+   </script>
+</body>
+</html>
